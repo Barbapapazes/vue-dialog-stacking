@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@plugin '@egoist/tailwindcss-icons';
+
+@import './keyframes.css';
+
+:root {
+  --ui-color-primary-50: var(--color-purple-50);
+  --ui-color-primary-100: var(--color-purple-100);
+  --ui-color-primary-200: var(--color-purple-200);
+  --ui-color-primary-300: var(--color-purple-300);
+  --ui-color-primary-400: var(--color-purple-400);
+  --ui-color-primary-500: var(--color-purple-500);
+  --ui-color-primary-600: var(--color-purple-600);
+  --ui-color-primary-700: var(--color-purple-700);
+  --ui-color-primary-800: var(--color-purple-800);
+  --ui-color-primary-900: var(--color-purple-900);
+  --ui-color-primary-950: var(--color-purple-950);
+
+  --ui-color-secondary-50: var(--color-pink-50);
+  --ui-color-secondary-100: var(--color-pink-100);
+  --ui-color-secondary-200: var(--color-pink-200);
+  --ui-color-secondary-300: var(--color-pink-300);
+  --ui-color-secondary-400: var(--color-pink-400);
+  --ui-color-secondary-500: var(--color-pink-500);
+  --ui-color-secondary-600: var(--color-pink-600);
+  --ui-color-secondary-700: var(--color-pink-700);
+  --ui-color-secondary-800: var(--color-pink-800);
+  --ui-color-secondary-900: var(--color-pink-900);
+  --ui-color-secondary-950: var(--color-pink-950);
+
+  --ui-primary: var(--ui-color-primary-500);
+  --ui-secondary: var(--ui-color-secondary-500);
+  --ui-success: var(--color-green-500);
+  --ui-info: var(--color-blue-500);
+  --ui-warning: var(--color-yellow-500);
+  --ui-error: var(--color-red-500);
+
+  --ui-text-dimmed: var(--color-slate-400);
+  --ui-text-muted: var(--color-slate-500);
+  --ui-text-toned: var(--color-slate-600);
+  --ui-text: var(--color-slate-700);
+  --ui-text-highlighted: var(--color-slate-900);
+
+  --ui-bg: var(--color-white);
+  --ui-bg-muted: var(--color-slate-50);
+  --ui-bg-elevated: var(--color-slate-100);
+  --ui-bg-accented: var(--color-slate-200);
+  --ui-bg-inverted: var(--color-slate-900);
+
+  --ui-border: var(--color-slate-200);
+  --ui-border-muted: var(--color-slate-200);
+  --ui-border-accented: var(--color-slate-300);
+  --ui-border-inverted: var(--color-slate-900);
+
+  --ui-radius: var(--radius-none);
+  --ui-container: var(--container-7xl);
+}
