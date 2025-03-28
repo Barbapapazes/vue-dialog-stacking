@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@egoist/tailwindcss-icons": "^1.9.0",
+    "@iconify-json/lucide": "^1.2.33",
     "@types/node": "^22.13.14",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
