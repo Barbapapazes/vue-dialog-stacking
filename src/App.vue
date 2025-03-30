@@ -16,7 +16,7 @@ function openOverlay() {
 </script>
 
 <template>
-  <div class="p-4 flex flex-col items-center gap-4">
+  <div class="p-4 h-screen flex flex-col justify-center items-center gap-4">
     <h1 class="font-semibold">Vue Dialog Stacking</h1>
 
     <Button label="Open First Overlay" @click="openOverlay" />
